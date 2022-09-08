@@ -54,7 +54,7 @@ Kevin.withdraw(10980)
 Kevin.deposit(5.34)
 Kevin.compound_int()
 Kevin.account_info()
-Kevin.deposit(12).deposit(66666666).deposit(987).withdraw(Kevin.balance).compound_int().account_info()
+Kevin.deposit(12).deposit(66666666).deposit(987).withdraw(Kevin.balance*.99999).compound_int().account_info()
 
 Carrie = Bank_Account(0.00, .5)
 Carrie.account_info()
@@ -63,3 +63,6 @@ Carrie.deposit(1259.00).deposit(120).withdraw(345).withdraw(99).withdraw(99).com
 
 Bank_Account.print_inst()
 Bank_Account.total_econ()
+print(Bank_Account.economy)
+
+
